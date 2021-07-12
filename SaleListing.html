@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title> Sale Listing </title>
+        <meta name='viewport' content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="SaleListing.css">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    </head>
+    <body>
+
+        <div id="nav" >
+
+            <img src="logoModernHouse.png">
+            
+            <ul>
+                <li><a href="AboutUsPage.html"> About Us</a></li>
+                <li><a href="HomePage.html"> Home</a></li>
+            </ul>
+           
+                <i onclick="clicked()" style="font-size: 170%;cursor:pointer;margin:auto;display: block;" id="buttonTheme1" class="fas fa-moon"></i>
+                <i onclick="clicked()" style="font-size: 170%;cursor:pointer;margin:auto;color: white;display:none;" id="buttonTheme2" class="fas fa-sun"></i>
+         
+           
+        </div>
+
+
+        <div id="nav2" >
+
+            <img src="logoModernHouse.png">
+            
+            <ul>
+                <li><a href="AboutUsPage.html"> About Us</a></li>
+                <li><a href="HomePage.html"> Home</a></li>
+            </ul>
+           
+                <i onclick="clicked()" style="font-size: 170%;cursor:pointer;margin:auto;color:white;display:  block;" id="buttonTheme1" class="fas fa-sun"></i>
+                <i onclick="clicked()" style="font-size: 170%;cursor:pointer;margin:auto;color: black;display:none;" id="buttonTheme2" class="fas fa-sun"></i>
+         
+           
+        </div>
+
+
+        <div id="slider">
+
+            <div class="container1">
+                <img src="Interior1000.jpg">
+                <a href="house1.html"> View House </a>
+                <div class="information1"> Modern Style </div>
+            </div>
+
+            <div class="container2">
+                <img src="RusticInterio.jpg">
+                <a href="house2.html"> View House </a>
+                <div class="information2">Rustic Style </div>
+            </div>
+
+            <div class="container3">
+                <img src="Interior1.jpg">
+                <a href="house3.html"> View House </a>
+                <div class="information3"> Modern Style </div>
+            </div>
+
+            
+
+        </div>
+        <div id="header-text">
+            Choose Your Style
+        </div>
+
+        <div id='headeCardSelection'>
+            <h1> On Sale </h1>
+        </div>
+
+        <div class="card-section"   data-aos="fade-left">
+
+            <div class="card">
+
+                <img src="Exterior2.jpg">
+                <a href="House3.html">
+                    <div class="cardHoverSection"> 
+                        <p>View More <i class="fas fa-arrow-right"></i>  </p> 
+                     </div>
+                </a>
+                
+
+            </div>
+
+            <div class="card">
+                <a href="House4.html">
+                <img src="Exterior1.jpg">
+                
+                <div class="cardHoverSection"> 
+                    <p>View More <i class="fas fa-arrow-right"></i>  </p> 
+                </div>
+                </a>
+            </div>
+
+            <div class="card">
+                
+                <img src="Exterior3.jpg">
+                <a href="House5.html">
+                    <div class="cardHoverSection">
+                        <p>View More <i class="fas fa-arrow-right"></i>  </p> 
+                    </div>
+                </a>
+            </div>
+
+            <div class="card">
+
+                <img src="RusticHouse.jpg">
+                <a href="House2.html">
+                    <div class="cardHoverSection"> 
+                        <p>View More <i class="fas fa-arrow-right"></i>  </p> 
+                    </div>
+                </a>
+                
+
+            </div>
+
+        </div>
+
+        <div class="card-section"   data-aos="fade-right">
+
+            <div class="card">
+
+                <img src="ModernHouse7!.jpg">
+                <a href="House7.html">
+                    <div class="cardHoverSection"> 
+                        <p>View More <i class="fas fa-arrow-right"></i>  </p> 
+                     </div>
+                </a>
+                
+
+            </div>
+
+            <div class="card">
+
+                <img src="House8.jpg">
+                    <a href="House8.html">
+                        <div class="cardHoverSection"> 
+                            <p>View More <i class="fas fa-arrow-right"></i>  </p> 
+                        </div>
+                    </a>
+
+            </div>
+
+            <div class="card">
+
+                <img src="Exterior8!.jpg">
+                <a href="House1.html">
+                <div class="cardHoverSection">
+                    <p>View More <i class="fas fa-arrow-right"></i>  </p> 
+                </div>
+                </a>
+            </div>
+
+            <div class="card">
+
+                <img src="Exterior4.jpg">
+                <a href="House6.html">
+                    <div class="cardHoverSection"> 
+                        <p>View More <i class="fas fa-arrow-right"></i>  </p> 
+                    </div>
+                </a>
+               
+
+            </div>
+
+        </div>
+
+        <a href="#nav" id="toTopBtn"> <i class="fas fa-angle-up"></i></a>
+        <a href="#nav2" id="toTopBtn2"> <i class="fas fa-angle-up"></i></a>
+
+
+        <div id="footer">
+            <div class="img-container">
+                <img src="logoModernHouse.png"style="display:block;cursor: pointer;margin:15% auto; margin-left:15%" width="45%" height="70px">
+            </div>
+
+            <div class="subscribe">
+               <h1>  Signup for newsletters</h1>
+                <form>
+                    <input type="text" placeholder="Type Your First Name Here"> <br>
+                    <input type="text" placeholder="Type Your Last Name Here"> <br>
+                    <input type="email" placeholder="Email Adress Here"> <br>
+                    <a href="#sent"> Send <i class="fas fa-arrow-right"></i> </a>
+                </form>
+            </div>
+
+            <div class="links">
+                <ul>
+                    <h1 style="text-decoration: underline;">Contact Us </h1> <br>
+                  <li> <a href="https://www.instagram.com/modern_design_house/" target="_blank"> <i style="color: rgb(0, 0, 0);" class="fab fa-instagram"> Instagram</i></a> </li>  
+    
+                   <li><a href="https://www.facebook.com/Modern-House-114742686973527" target="_blank"><i style="color: rgb(0, 0, 0);" class="fab fa-facebook"> Facebook</i></a> </li> 
+
+                   <li><a href="https://twitter.com/the_modernhouse" target="_blank"><i style="color: rgb(0, 0, 0);" class="fab fa-twitter"> Twitter</i></a> </li> 
+                </ul>   
+            </div>
+            
+
+        </div>
+
+        
+
+
+        <div id="footer2">
+            <div class="img-container">
+                <img src="logoModernHouse.png"style="display:block;cursor: pointer;margin:15% auto; margin-left:15%" width="45%" height="70px">
+            </div>
+
+            <div class="subscribe2">
+               <h1>  Signup for newsletters</h1>
+                <form class="form">
+                    <input class="input2" type="text" placeholder="Type Your First Name Here"> <br>
+                    <input  class="input2" type="text" placeholder="Type Your Last Name Here"> <br>
+                    <input  class="input2" type="email" placeholder="Email Adress Here"> <br>
+                    <a href="#sent"> Send <i class="fas fa-arrow-right"></i> </a>
+                </form>
+            </div>
+
+            <div class="links2">
+                <ul>
+                    <h1 style="text-decoration: underline;">Contact Us </h1> <br>
+                  <li> <a href="https://www.instagram.com/modern_design_house/" target="_blank"> <i style="color: rgb(255, 255, 255);" class="fab fa-instagram"> Instagram</i></a> </li>  
+    
+                   <li><a href="https://www.facebook.com/Modern-House-114742686973527" target="_blank"><i style="color: rgb(255, 255, 255);" class="fab fa-facebook"> Facebook</i></a> </li> 
+
+                   <li><a href="https://twitter.com/the_modernhouse" target="_blank"><i style="color: rgb(255, 255, 255);" class="fab fa-twitter"> Twitter</i></a> </li> 
+                </ul>   
+            </div>
+            
+
+        </div>
+
+
+
+        
+
+        <script src="JavaScriptViewSales.js"> </script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        offset:300,
+        duration:250,
+        once:true,
+        delay:0
+    });
+  </script>
+
+    </body>
+</html>
